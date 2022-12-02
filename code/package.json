@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && cp -r ./dist/ ../",
+    "serve": "git add . && git commit -m 'serve' && git push",
     "preview": "vite preview"
   },
   "dependencies": {
