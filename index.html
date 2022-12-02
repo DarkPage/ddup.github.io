@@ -8,20 +8,25 @@
     <!-- <script type="module" crossorigin src="/assets/index.08ff9814.js"></script>
     <link rel="stylesheet" href="/assets/index.3fce1f81.css"> -->
     <style>
+      * {
+        box-sizing: border-box;
+      }
       body {
         padding: 0;
         margin: 0;
       }
       .page {
-        width: 100px;
         position: absolute;
         left: 0;
         top: 0;
         right: 0;
         bottom: 0;
+        width: 100px;
+        height: 100%;
         overflow: auto;
-        border: 1px solid black;
         transform: translateZ(0);
+        background-color: #fff;
+        border: 1px solid black;
       }
       .page1 {
         left: 0;
@@ -33,6 +38,7 @@
         left: 220px;
       }
       main {
+        min-height: 100vh;
         height: 1200px;
       }
     </style>
