@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
+    <title>Github Page</title>
     <!-- <script type="module" crossorigin src="/assets/index.08ff9814.js"></script>
     <link rel="stylesheet" href="/assets/index.3fce1f81.css"> -->
     <style>
-      * {
+      html{
+        font-size: 62.5%;
+      }
+      body{
+        font-size: 1.4rem;
+      }
+      *,*::before,::after {
         box-sizing: border-box;
       }
       body {
@@ -16,6 +22,7 @@
         margin: 0;
       }
       .page {
+        z-index: 5;
         position: absolute;
         left: 0;
         top: 0;
@@ -30,6 +37,7 @@
       }
       .page1 {
         left: 0;
+        z-index: 1;
       }
       .page2 {
         left: 110px;
