@@ -23,7 +23,6 @@
         box-sizing: border-box;
       }
       .page {
-        z-index: 5;
         position: absolute;
         left: 0;
         top: 0;
@@ -36,11 +35,17 @@
         background-color: #fff;
       }
       .page1 {
-        /* left: 0; */
-        z-index: 1;
       }
       .page2 {
-        left: 110px;
+        z-index: 100;
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        right: 100px;
+        bottom: 100px;
+        overflow: auto;
+        border: 1px solid black;
+        background-color: #fff;
       }
       .page3 {
         left: 220px;
@@ -180,14 +185,33 @@
         </ul>
       </main>
     </div>
-    <!-- <div class="page page2">
+    <div class="page2">
       <main>
         <nav>
           <center>用户服务协议</center>
         </nav>
+        <ul>
+          <li>
+            <section>
+              <h3>
+                您传递给的 React 树hydrateRoot需要产生与服务器上相同的输出。
+              </h3>
+              这对用户体验很重要。在您的 JavaScript
+              代码加载之前，用户会花一些时间查看服务器生成的
+              HTML。服务器渲染通过显示其输出的 HTML
+              快照创建应用程序加载更快的错觉。突然显示不同的内容打破了这种幻想。这就是为什么在水合作用期间服务器渲染输出必须与客户端上的初始渲染输出相匹配。
+              导致水合作用错误的最常见原因包括： 根节点内 React 生成的 HTML
+              周围的额外空格（如换行符）。 typeof window !==
+              'undefined'在您的渲染逻辑中使用检查。
+              window.matchMedia在您的渲染逻辑中使用仅限浏览器的 API 。
+              在服务器和客户端上呈现不同的数据。 React
+              可以从一些水合作用错误中恢复，但你必须像修复其他错误一样修复它们。在最好的情况下，它们会导致应用程序变慢；在最坏的情况下，事件处理程序会附加到错误的元素。
+            </section>
+          </li>
+        </ul>
       </main>
     </div>
-    <div class="page page3">
+    <!-- <div class="page3">
       <main>
         <nav>
           <center>用户服务协议</center>
