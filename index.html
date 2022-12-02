@@ -76,6 +76,10 @@
         <nav>
           <center>用户服务协议</center>
         </nav>
+        <p>
+          <button onclick="handlehide2();">hide2</button>
+          <button onclick="handlehide3();">hide3</button>
+        </p>
         <ul>
           <li>
             <section>
@@ -191,5 +195,15 @@
       </main>
     </div>
     <div id="hydrate"></div>
+    <script>
+      function handlehide2(){
+        const el = document.querySelector('.page2')
+        el.style.display = 'none'
+      }
+      function handlehide3(){
+        const el = document.querySelector('.page3')
+        el.style.display = 'none'
+      }
+    </script>
   </body>
 </html>
