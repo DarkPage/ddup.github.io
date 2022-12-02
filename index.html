@@ -293,6 +293,10 @@
         console.log("handlescroll", el.scrollTop, el.scrollHeight);
         el.scrollTo(0, 200);
         el.style.overflow = "hidden";
+        el.style.zindex = 0
+
+        // 换顺序
+        document.body.insertBefore(document.querySelector('.page2'), el)
       }
     </script>
   </body>
