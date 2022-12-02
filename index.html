@@ -39,9 +39,9 @@
       .page2 {
         z-index: 100;
         position: absolute;
-        left: 0;
+        left: 100px;
         top: 0;
-        width: 100vw;
+        width: calc(100vw -100px);
         height: 100vh;
         overflow: auto;
         transform: translateZ(0);
@@ -56,12 +56,13 @@
         min-height: 100vh;
         word-break: break-all;
       }
-      ul,li {
+      ul,
+      li {
         list-style: none;
         padding: 0;
         margin: 0;
       }
-      nav{
+      nav {
         position: sticky;
         top: 0;
         height: 56px;
@@ -194,6 +195,9 @@
         </nav>
         <ul>
           <li>
+            <button onclick="handlescroll()">scroll1</button>
+          </li>
+          <li>
             <section>
               <h3>
                 您传递给的 React 树hydrateRoot需要产生与服务器上相同的输出。
@@ -273,13 +277,19 @@
     </div> -->
     <div id="hydrate"></div>
     <script>
-      function handlehide2(){
-        const el = document.querySelector('.page2')
-        el.style.display = 'none'
+      function handlehide2() {
+        const el = document.querySelector(".page2");
+        el.style.display = "none";
       }
-      function handlehide3(){
-        const el = document.querySelector('.page3')
-        el.style.display = 'none'
+      function handlehide3() {
+        const el = document.querySelector(".page3");
+        el.style.display = "none";
+      }
+      function handlescroll() {
+        const el = document.querySelector(".page1");
+        console.log('handlescroll', el.scrollTop, el.scrollHeight)
+        el.scrollTo(0, 200)
+        el.style.overflow = 'hidden'
       }
     </script>
   </body>
