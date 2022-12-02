@@ -39,14 +39,17 @@
       .page2 {
         z-index: 100;
         position: absolute;
-        left: 100px;
+        left: 0;
         top: 0;
-        width: calc(100vw -100px);
+        width: 100vw;
         height: 100vh;
         overflow: auto;
         transform: translateZ(0);
 
         border: 1px solid black;
+        padding-left: 50px;
+      }
+      .page2 > main {
         background-color: #fff;
       }
       .page3 {
@@ -287,9 +290,9 @@
       }
       function handlescroll() {
         const el = document.querySelector(".page1");
-        console.log('handlescroll', el.scrollTop, el.scrollHeight)
-        el.scrollTo(0, 200)
-        el.style.overflow = 'hidden'
+        console.log("handlescroll", el.scrollTop, el.scrollHeight);
+        el.scrollTo(0, 200);
+        el.style.overflow = "hidden";
       }
     </script>
   </body>
