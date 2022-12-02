@@ -181,27 +181,6 @@
         <nav>
           <center>用户服务协议</center>
         </nav>
-        <ul>
-          
-          <li>
-            <section>
-              <h3>参数 domNode：在服务器上呈现为根元素的DOM 元素。</h3>
-              reactNode：用于呈现现有 HTML 的“React 节点”。这通常是一段 JSX
-              ，类似于 使用.ReactDOM ServerrenderToPipeableStream optional
-              options：一个对象包含此 React 根的选项。 onRecoverableError：当
-              React 自动从错误中恢复时调用的可选回调。 identifierPrefix:
-              可选前缀 React 用于useId.
-              在同一页面上使用多个根目录时，有助于避免冲突。必须与服务器上使用的前缀相同。
-              退货 hydrateRoot返回具有两个方法的对象：render和unmount。 注意事项
-              hydrateRoot()期望呈现的内容与服务器呈现的内容相同。您应该将不匹配视为错误并修复它们。
-              在开发模式下，React
-              会在水合作用期间警告不匹配。不保证在不匹配的情况下会修补属性差异。出于性能原因，这很重要，因为在大多数应用程序中，不匹配的情况很少见，因此验证所有标记的成本非常高。
-              您的应用程序中可能只有一次hydrateRoot调用。如果您使用框架，它可能会为您执行此调用。
-              如果您的应用程序是客户端呈现的，但尚未呈现
-              HTML，hydrateRoot()则不支持使用。改用createRoot()。
-            </section>
-          </li>
-        </ul>
       </main>
     </div>
     <div class="page page3">
