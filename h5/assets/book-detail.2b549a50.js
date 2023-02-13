@@ -1,1 +1,0 @@
-import{r as t,c as n,d as c,j as o,a}from"./index.91cb39e1.js";const l=()=>{console.log("BookDetail");const{bookID:e}=n(),s=c();return o("div",{className:"page",children:[a("nav",{className:"navbar",children:a("button",{onClick:()=>s(-1),children:"back"})}),a("h2",{children:"BookDetail"}),o("span",{children:["bookID: ",e]})]})},i=t.exports.memo(l);export{i as default};

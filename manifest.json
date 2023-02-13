@@ -1,0 +1,159 @@
+{
+  "index.css": {
+    "file": "assets/index-b4a6fab0.css",
+    "src": "index.css"
+  },
+  "index.html": {
+    "css": [
+      "assets/index-b4a6fab0.css"
+    ],
+    "dynamicImports": [
+      "src/routes/idlefish/settings/index.tsx",
+      "src/routes/idlefish/collects/index.tsx",
+      "src/routes/idlefish/history/index.tsx",
+      "src/routes/idlefish/follow/index.tsx",
+      "src/routes/idlefish/fans/index.tsx",
+      "src/routes/idlefish/articles/index.tsx",
+      "src/routes/idlefish/idle-detail/index.tsx",
+      "src/routes/idlefish/release/index.tsx",
+      "src/routes/books/detail.tsx",
+      "src/routes/webrtc/index.tsx",
+      "src/routes/woker-react/index.tsx",
+      "src/routes/media/index.tsx"
+    ],
+    "file": "assets/index-d980c401.js",
+    "isEntry": true,
+    "src": "index.html"
+  },
+  "src/routes/books/detail.css": {
+    "file": "assets/detail-620987c8.css",
+    "src": "src/routes/books/detail.css"
+  },
+  "src/routes/books/detail.tsx": {
+    "css": [
+      "assets/detail-620987c8.css"
+    ],
+    "file": "assets/detail-08deffbc.js",
+    "imports": [
+      "index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/books/detail.tsx"
+  },
+  "src/routes/idlefish/articles/index.tsx": {
+    "file": "assets/index-250fd3a6.js",
+    "imports": [
+      "index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/idlefish/articles/index.tsx"
+  },
+  "src/routes/idlefish/collects/index.tsx": {
+    "file": "assets/index-fc77143f.js",
+    "imports": [
+      "index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/idlefish/collects/index.tsx"
+  },
+  "src/routes/idlefish/fans/index.tsx": {
+    "file": "assets/index-942a1c9e.js",
+    "imports": [
+      "index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/idlefish/fans/index.tsx"
+  },
+  "src/routes/idlefish/follow/index.tsx": {
+    "file": "assets/index-c018e37d.js",
+    "imports": [
+      "index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/idlefish/follow/index.tsx"
+  },
+  "src/routes/idlefish/history/index.tsx": {
+    "file": "assets/index-a4a62fe0.js",
+    "imports": [
+      "index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/idlefish/history/index.tsx"
+  },
+  "src/routes/idlefish/idle-detail/index.css": {
+    "file": "assets/index-6de25812.css",
+    "src": "src/routes/idlefish/idle-detail/index.css"
+  },
+  "src/routes/idlefish/idle-detail/index.tsx": {
+    "css": [
+      "assets/index-6de25812.css"
+    ],
+    "file": "assets/index-48a6b966.js",
+    "imports": [
+      "index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/idlefish/idle-detail/index.tsx"
+  },
+  "src/routes/idlefish/release/index.css": {
+    "file": "assets/index-a03d2e77.css",
+    "src": "src/routes/idlefish/release/index.css"
+  },
+  "src/routes/idlefish/release/index.tsx": {
+    "css": [
+      "assets/index-a03d2e77.css"
+    ],
+    "file": "assets/index-6bae3407.js",
+    "imports": [
+      "index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/idlefish/release/index.tsx"
+  },
+  "src/routes/idlefish/settings/index.css": {
+    "file": "assets/index-91fea3fd.css",
+    "src": "src/routes/idlefish/settings/index.css"
+  },
+  "src/routes/idlefish/settings/index.tsx": {
+    "css": [
+      "assets/index-91fea3fd.css"
+    ],
+    "file": "assets/index-e20c655e.js",
+    "imports": [
+      "index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/idlefish/settings/index.tsx"
+  },
+  "src/routes/media/index.css": {
+    "file": "assets/index-b8703ebc.css",
+    "src": "src/routes/media/index.css"
+  },
+  "src/routes/media/index.tsx": {
+    "css": [
+      "assets/index-b8703ebc.css"
+    ],
+    "file": "assets/index-c8052a41.js",
+    "imports": [
+      "index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/media/index.tsx"
+  },
+  "src/routes/webrtc/index.tsx": {
+    "file": "assets/index-255f631b.js",
+    "imports": [
+      "index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/webrtc/index.tsx"
+  },
+  "src/routes/woker-react/index.tsx": {
+    "file": "assets/index-89dc9cb7.js",
+    "imports": [
+      "index.html"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/woker-react/index.tsx"
+  }
+}
